@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+    color: darkred;
+}
+
+.navigationBar {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #649b30;
+}
+
+.navigationBar li {
+    display: inline-block; /* Display list items horizontally */
+  }
+
+.navigationBar li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigationBar li a:hover {
+    background-color: #a02424;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .navigationBar li:hover .dropdown {
+    display: block;
+  }
+
+  .dropdown li {
+    display: block;
+  }
+
+  .dropdown li a {
+    padding: 12px 16px;
+  }
